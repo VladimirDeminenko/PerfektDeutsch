@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Aufnahmetest - M1 | perfekt.deutsch</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.min.css"/>
+        <link href="css/app.css" rel="stylesheet">
+
+        <!-- Fav and touch icons -->
+        <!--
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="shortcut icon" href="http://twitter.github.io/bootstrap/assets/ico/favicon.png">
+        -->
+        <link rel="apple-touch-icon-precomposed" href="http://www.perfekt-deutsch.de/favicon.ico">
+    </head>
+    <body>
+<!-- Menu ------------------------------------------------------->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner" >
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand">perfekt.deutsch - Aufnahmetest - M1</a>
+                </div>
+            </div>
+        </div>
+<!-- Menu ----------------------------------------------------- -->
+
+        <div class="container">
+            <img src="img/logo.png" class="offset3"/>
+            <!-- Main hero unit for a primary marketing message or call to action - ->
+            <div class="hero-unit">
+                <h3>Teil I: Grammatische Strukture<small> Perfekt Deutsch</small></h3>
+                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            </div>
+            <!-- -->
+            <form>
+                <fieldset>
+                    <legend>Teil I: Grammatische Strukture</legend>
+
+                    <div ng-view></div>
+                </fieldset>
+            </form>
+            <footer class="text-left">
+                <p>© perfekt.deutsch 2013</p>
+            </footer>
+        </div> <!-- /container -->
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="lib/jquery/jquery-1.10.1.min.js"></script>
+        <script src="lib/angular/angular.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/services.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/filters.js"></script>
+        <script src="js/directives.js"></script>
+    </body>
+</html>

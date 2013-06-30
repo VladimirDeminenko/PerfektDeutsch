@@ -1,0 +1,20 @@
+/* app css stylesheet */
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+img {
+    margin-bottom: 1em;
+    width: 40%;
+}
+
+form section {
+    height: 400px;
+}
+
+form p {
+    text-align: justify;
+    line-height: 2;
+}
