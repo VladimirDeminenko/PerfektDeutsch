@@ -53,10 +53,10 @@ angular.module('myApp.controllers', [])
 }])
  /**/
 
-var sectionA = {}
+var data = {}
 
-function TextController($scope) {
-    $scope.sectionA = sectionA;
+function DataCtrl($scope) {
+    $scope.data = data;
 
     $scope.textChanges = function() {
 
