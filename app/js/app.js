@@ -9,4 +9,4 @@ angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives'])
         $routeProvider.when('/viewDE', {templateUrl: 'partials/sectionDE.html', controller: 'DataCtrl'});
         $routeProvider.otherwise({redirectTo: '/viewA'});
     }
-]);
+    ]);
